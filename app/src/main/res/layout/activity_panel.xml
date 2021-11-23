@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Panel">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACTION" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/panel_BTN_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFO" />
+
+        <com.google.android.material.button.MaterialButton
+        android:id="@+id/panel_BTN_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permission" />
+
+        <com.google.android.material.button.MaterialButton
+        android:id="@+id/panel_BTN_crash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="crash" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/panel_LBL_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 0 0 0"
+            android:textColor="#003000"
+            android:textSize="24sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
